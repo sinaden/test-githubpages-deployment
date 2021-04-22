@@ -26,9 +26,9 @@ jobs:
         python -m pip install -r requirements.txt
 
     # Build the site
-    - name: Build the site
-      run: |
-        python -m invoke build
+    #- name: Build the site
+    #  run: |
+    #    python -m invoke build
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
